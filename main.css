@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+@font-face 
+{
+    font-family: 'rubik';
+    src: local('rubik'),
+    url("font/RubikIso-Regular.ttf");
+}
+
+@font-face 
+{
+    font-family: 'russo';
+    src: local('russo'),
+    url("font/RussoOne-Regular.ttf");
+}
+
+body
+{
+    background-color: black;
+    color: aliceblue;
+}
+
+.greetings
+{
+    padding-top: 5px;
+    color:brown;
+    background-image: url("image/cafe.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: 800px;
+    height:640px;
+}
+.greetings h2
+{
+    font-family: 'Prata';
+    text-align: center;
+    padding-top: 10px;
+}
+
+.content 
+{
+    margin: 3%;
+    padding-top: 0px;
+    text-align: center;
+        
+}
+
+.content ul
+{
+    margin: 2% 2%;
+    text-align: center;
+    padding: 0px 10px;
+    list-style: none;
+}
+
+.content ul li
+{
+    text-align: center;
+    padding: 0px, 0px;
+}
+
+.content p
+{
+    font-family: serif;
+    margin: 2% 2%;
+    text-align: justify;
+    padding: 2% 10px;
+}
+
+/*навигация*/
+.nav ul
+{
+    display: flex;
+    flex-direction:  row;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav a
+{
+    font-family: 'russo';
+    text-decoration: none;
+    color:aliceblue;
+    padding: 10px 20px;
+}
+
+.nav li:hover a
+{
+    background-color: aliceblue;
+    color: black;
+}
+
+/*футер */
+
+.footer
+{
+    text-align: center;
+}
+.footer ul
+{
+    display: flex;
+    flex-direction:  row;
+    list-style: none;
+    justify-content: center;
+    background-color: darkslategray;
+}
+
+.footer a
+{
+    font-family: 'russo';
+    text-decoration: none;
+    color:aliceblue;
+    padding: 10px 20px;
+}
+
+.footer li:hover a
+{
+    font-family: 'rubik';
+    background-color: rgb(107, 168, 221);
+    color: black;
+}
+
+.footer p
+{
+    color: grey;
+    text-align: right;
+    padding-right: 2%;
+}
+
+.footer img 
+{
+    padding-top: 2%;    
+}
+
+/* хедер*/
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 2%;
+}
+
+.caffe
+{
+    font-family: rubik;
+    font-size: large;
+    padding-top: 5%;
+}
+.address
+{
+    padding-top: 5%;
+}
+
+.logo
+{
+    height: 120px;
+}
+
+/*Пункты меню*/
+
+.menu
+{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.menu img
+{
+    height: 240px;
+}
+
+.menu_descr
+{
+    padding: 2%;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.price
+{
+    font-family: 'rubik';
+    font-size: xx-large;
+}
